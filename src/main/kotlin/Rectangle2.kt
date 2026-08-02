@@ -4,7 +4,7 @@ package knight.nameless
 //The data class is for classes that mainly contain data and does functionality with this data. Given this information
 // most of the classes are data classes.
 data class Rectangle2(
-    val width: Float,
+    val width: Float, // all fields define in a class are public by default, we have the same visibility modifiers like java
     val height: Float
 
 ) : ShapeAbstract() { // for implement interface we do this : Shape. But for abstract class we do : ShapeAbstract()
