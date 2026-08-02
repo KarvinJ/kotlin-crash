@@ -40,6 +40,9 @@ fun main() {
 //    accessing increment counter via Inheritance of shapeAbstract
     rectangle.incrementCounter()
     println(rectangle.counter)
+
+    //using the singleton object
+    println(SingletonShape.area)
 }
 
 // in this function using the vararg enables to pass a variable number of arguments to a function,
