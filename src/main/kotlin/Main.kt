@@ -1,8 +1,5 @@
 package knight.nameless
 
-
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
 //    val input = readln() // read input of the console
 //    println("Hello, $input!") // print in the console
